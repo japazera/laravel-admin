@@ -1,0 +1,29 @@
+{
+    "name": "japazera/laravel-admin",
+    "description": "Fast Laravel setup.",
+    "authors": [
+        {
+            "name": "Leandro T. Kondo",
+            "email": "ltkbabu@hotmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Japazera\\LaravelAdmin\\Providers\\LaravelAdminServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Japazera\\LaravelAdmin\\": "src"
+        }
+    },
+    "require": {
+        "illuminate/support": "^5",
+		"guzzlehttp/guzzle": "^6"
+    }
+}
